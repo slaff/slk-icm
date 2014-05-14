@@ -1,0 +1,1 @@
+At the moment the README.md file in the root folder contains all needed information.

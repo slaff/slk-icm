@@ -1,0 +1,36 @@
+{
+	"name" : "slk/icm",
+	"description" : "Interactive Command line Markup",
+	"type" : "project",
+	"authors" : [{
+			"name" : "Slavey Karadzhov",
+			"email" : "slavey@zend.com",
+			"homepage" : "http://learnzf2.com",
+			"role" : "Author"
+		}
+	],
+	"keywords" : [
+		"zf2",
+		"console",
+		"command line",
+		"markup"
+	],
+	"homepage" : "https://github.com/slaff/slk-icm",
+	"license" : [
+		"BSD-3-Clause"
+	],
+	"require" : {
+		"php" : ">=5.3.3",
+		"zendframework/zend-console" : "2.2.*",
+		"zendframework/zend-text"    : "2.2.*",
+		"zendframework/zend-view" 	 : "2.2.*"
+	},
+	"require-dev" : {
+		"phpunit/phpunit" : "3.7.*"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"Slk\\" : "src/"
+		}
+	}
+}
