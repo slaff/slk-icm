@@ -21,9 +21,9 @@
 	],
 	"require" : {
 		"php" : ">=5.3.3",
-		"zendframework/zend-console" : "2.2.*",
-		"zendframework/zend-text"    : "2.2.*",
-		"zendframework/zend-view" 	 : "2.2.*"
+		"zendframework/zend-console" : ">=2.2.0",
+		"zendframework/zend-text"    : ">=2.2.0",
+		"zendframework/zend-view" 	 : ">=2.2.0"
 	},
 	"require-dev" : {
 		"phpunit/phpunit" : "3.7.*"
